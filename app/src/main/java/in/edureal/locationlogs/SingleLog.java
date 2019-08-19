@@ -17,6 +17,9 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import java.util.Locale;
 
 public class SingleLog extends AppCompatActivity {
 
@@ -80,6 +83,14 @@ public class SingleLog extends AppCompatActivity {
         datetime.setText("Date - "+SharedPreferenceSingleton.getInstance(this.getApplicationContext()).getSp().getString("logDate","")+"\nTime - "+SharedPreferenceSingleton.getInstance(this.getApplicationContext()).getSp().getString("logTime12",""));
         time24hour.setText(SharedPreferenceSingleton.getInstance(this.getApplicationContext()).getSp().getString("logTime24",""));
         coordinates.setText("Lat - "+SharedPreferenceSingleton.getInstance(this.getApplicationContext()).getSp().getFloat("latitude",0.0f)+"\nLong - "+SharedPreferenceSingleton.getInstance(this.getApplicationContext()).getSp().getFloat("longitude",0.0f));
+        ((LinearLayout)findViewById(R.id.coordinatesLayout)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String uri = String.format(Locale.ENGLISH, "geo:"+SharedPreferenceSingleton.getInstance(SingleLog.this).getSp().getFloat("latitude",0.0f)+","+SharedPreferenceSingleton.getInstance(SingleLog.this).getSp().getFloat("longitude",0.0f)+"?z=18");
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
+                startActivity(intent);
+            }
+        });
         if(SharedPreferenceSingleton.getInstance(this.getApplicationContext()).getSp().getString("address","").trim().length()==0){
             ((LinearLayout)findViewById(R.id.addressLayout)).setVisibility(View.GONE);
         }else{

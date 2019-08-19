@@ -5,7 +5,7 @@ The 1000 App Pledge is a challenge I have set out for me to create 1000 apps. I'
 This the 5th app I developed under this pledge.
 
 # Location Logs
-Location logs is a very useful logging app for keeping records of your location with soem extra information like network, battery and weather information. This app servers both general and security usecases.
+Location logs is a very useful logging app for keeping records of your location with some extra information like network, battery and weather information. This app servers both general and security usecases.
 
 **Minimum SDK Version:** 19
 
@@ -17,12 +17,13 @@ Location logs is a very useful logging app for keeping records of your location 
 3. Automatically converts your coordinates into an address.
 4. Automatically gets the weather conditions at your location.
 5. Swipe left to delete any log.
+6. Click on the coordinates to open the location on google maps.
 
 Screenshots:
 
 ![Screenshots](https://user-images.githubusercontent.com/29485313/63282207-e8b77e80-c2cb-11e9-8d8c-28a179066a1f.jpg)
 
-Location Logs for Android: [Download apk file here](https://drive.google.com/file/d/1S_yRkcS6SVGu7b3GuNyEElXFxRE4DAAE)
+Location Logs for Android: [Download apk file here](https://drive.google.com/file/d/1KK1dyAZnAdhoZtBg8UUIrkEHr6N0l4YX)
 
 **Checkout the 6th app (???)**: Coming Soon...
 **Checkout the 4th app (Bill Split)**: [Here on GitHub](https://github.com/vishu103/bill-split)
