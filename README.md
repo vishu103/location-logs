@@ -25,6 +25,8 @@ Screenshots:
 
 Location Logs for Android: [Download apk file here](https://drive.google.com/file/d/1KK1dyAZnAdhoZtBg8UUIrkEHr6N0l4YX)
 
+[![GooglePlayLink](https://user-images.githubusercontent.com/29485313/61143889-12bd9a00-a4f1-11e9-90ce-73d190532653.jpg)](https://play.google.com/store/apps/details?id=in.edureal.locationlogs)
+
 **Checkout the 6th app (???)**: Coming Soon...
 **Checkout the 4th app (Bill Split)**: [Here on GitHub](https://github.com/vishu103/bill-split)
 
