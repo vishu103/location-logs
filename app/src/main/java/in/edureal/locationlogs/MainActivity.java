@@ -37,6 +37,7 @@ import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.NetworkError;
@@ -119,7 +120,7 @@ public class MainActivity extends AppCompatActivity{
         temperature=0.0;
         date="";
 
-        DateFormat df = new SimpleDateFormat("dd MMMM YYYY");
+        DateFormat df = new SimpleDateFormat("dd MMMM yyyy");
         Date dateobj = new Date();
         date=df.format(dateobj);
         df = new SimpleDateFormat("h:m a");
@@ -197,7 +198,6 @@ public class MainActivity extends AppCompatActivity{
 
 
         } else{
-
             getUserLocation();
 
         }
