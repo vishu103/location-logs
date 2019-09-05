@@ -19,6 +19,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import java.util.Locale;
 
 public class SingleLog extends AppCompatActivity {
@@ -120,6 +123,10 @@ public class SingleLog extends AppCompatActivity {
         }else{
             weather.setText(SharedPreferenceSingleton.getInstance(this.getApplicationContext()).getSp().getString("climate","")+"\nTemperature - "+SharedPreferenceSingleton.getInstance(this.getApplicationContext()).getSp().getFloat("temperature",0.0f)+"°C");
         }
+
+        AdView adView=(AdView) findViewById(R.id.adView);
+        AdRequest request=new AdRequest.Builder().build();
+        adView.loadAd(request);
 
     }
 

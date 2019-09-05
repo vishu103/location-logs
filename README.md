@@ -19,11 +19,14 @@ Location logs is a very useful logging app for keeping records of your location 
 5. Swipe left to delete any log.
 6. Click on the coordinates to open the location on google maps.
 
+#### Changelog
+1. 5th September 2019 - Added support for displaying ads in the app.
+
 Screenshots:
 
 ![Screenshots](https://user-images.githubusercontent.com/29485313/63282207-e8b77e80-c2cb-11e9-8d8c-28a179066a1f.jpg)
 
-Location Logs for Android: [Download apk file here](https://drive.google.com/file/d/1KK1dyAZnAdhoZtBg8UUIrkEHr6N0l4YX)
+Location Logs for Android:
 
 [![GooglePlayLink](https://user-images.githubusercontent.com/29485313/61143889-12bd9a00-a4f1-11e9-90ce-73d190532653.jpg)](https://play.google.com/store/apps/details?id=in.edureal.locationlogs)
 
