@@ -377,7 +377,7 @@ public class MainActivity extends AppCompatActivity{
                                 showError("There was an Authentication Failure while performing the request. Please try again later.");
                             }else if(error instanceof ServerError) {
                                 loader.hide();
-                                showError("Server responded with a error response. Please try again later.");
+                                showError("Server responded with an error response. Please try again later.");
                             }else if(error instanceof NetworkError) {
                                 loader.hide();
                                 showError("There was network error while performing the request. Please try again later.");
